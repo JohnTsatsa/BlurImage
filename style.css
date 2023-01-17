@@ -1,0 +1,33 @@
+/*------   google "font" choose your preference and import  ------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap'); 
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+body{
+	font-family:'Roboto',sens-serif;
+	margin: 0;
+	display:flex;
+	align-items:center; /* align horizontaly */
+	justify-content:center; /*  vertical */
+	height:100vh; /*  needs for align vertical */
+	overflow:hidden;  /*  no scrollbar appears */
+}
+
+.image{
+	background:url("https://images.unsplash.com/photo-1608613304899-ea8098577e38?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80") center/cover ;
+	position:absolute;
+	width:100vw;
+	height:100vh;
+	z-index:-1; /* we want the number in front the image */
+}
+
+.number{
+	font-size:30px;
+	color:white;
+}
+
+
