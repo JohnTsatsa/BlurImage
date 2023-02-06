@@ -1,4 +1,5 @@
 # Blur Image
+### Demo https://johntsatsa.github.io/BlurImage/
 ## Description
 This project has a blurred image and gradually making it clean.  
 At the same time in the middle of the image there is a % counter that increases and gets transparent gradually.  
